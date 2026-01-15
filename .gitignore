@@ -1,0 +1,5 @@
+tmux.sh
+vendor
+*.pdf
+*.swp
+*.txt

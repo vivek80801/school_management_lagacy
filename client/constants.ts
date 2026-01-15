@@ -1,0 +1,1 @@
+export const serverURL = __DEV__ ? "http://10.17.170.114/my-stuff/school_management_system": "https://vivekkumarweb.com/school_management_software";

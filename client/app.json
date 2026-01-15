@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "School Management System",
+    "slug": "school_management_system",
+    "version": "0.0.000001",
+    "orientation": "portrait",
+    "icon": "./assets/school_manage_system_icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "localhost",
+    "splash": {
+      "image": "./assets/school_manage_system_splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/school_manage_system_adative_icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.vivek80801.school_management_system"
+    },
+    "web": {
+      "favicon": "./assets/school_manage_system_favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-localization",
+      "expo-build-properties"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "b99e5ee2-259f-4960-a168-3b0a774e2c8c"
+      }
+    }
+  }
+}
